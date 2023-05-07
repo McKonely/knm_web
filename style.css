@@ -1,7 +1,23 @@
 body {
-    background-color: rgb(192, 192, 192);
+    background-image: url("./img/background.jpg");
+    font-family: monospace;
+}
+img{
+    object-position: center;
+    width: 600px;
+}
+div {
+    text-align: center; 
+    background-color: rgba(0, 128, 255, 0.3);
 }
 
-p {
-    color: black;
+#obj1 {
+    object-position: center top;
+    width: 600px;
+}
+p, button {
+    font-size: 18px;
+}
+button {
+    background-color: blue;
 }
