@@ -1,23 +1,56 @@
-body {
-    background-image: url("./img/background.jpg");
-    font-family: monospace;
-}
-img{
-    object-position: center;
-    width: 600px;
-}
-div {
-    text-align: center; 
-    background-color: rgba(0, 128, 255, 0.3);
+h1,
+h2,
+.main, 
+.back {
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
 }
 
-#obj1 {
-    object-position: center top;
-    width: 600px;
+body {
+    background-color: rgb(160, 160, 160);
 }
-p, button {
-    font-size: 18px;
+
+img,
+.imback {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 button {
-    background-color: blue;
+    background-color: rgba(255, 0, 0, 1.0);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 10px;
+}
+.main, .back{
+    font-size: 20px;
+    background-color: rgb(124, 120, 120);
+  
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+dd{
+    margin: 10px;
+}
+.back{
+    background-color: rgba(0, 0, 0, 0)
+}
+.imback{
+    width: 100px;
 }
